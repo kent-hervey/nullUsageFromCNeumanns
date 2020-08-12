@@ -1,5 +1,7 @@
 package com.hervey.example;
 
+//created this simple project as follow-along to Christian Neumanns's article on null
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +15,10 @@ public class AppMain {
 		Logger logger = Logger.getLogger(AppMain.class.getName());
 		
 		List<Person> persons =  new ArrayList<Person>();
+		Person Alice = new Person();
+		Alice.setName("Alice");
+		
+		persons.add(Alice);
 
 
 		//For example, suppose that we have to write a loop that sends emails for a list of persons. The code (in Java) could look like this:
