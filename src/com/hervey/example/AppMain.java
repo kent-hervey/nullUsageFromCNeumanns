@@ -14,6 +14,8 @@ public class AppMain {
 	public static void main(String[] args) {
 		Logger logger = Logger.getLogger(AppMain.class.getName());
 		
+		///The Person/email address example
+		
 		List<Person> persons =  new ArrayList<Person>();
 		Person Alice = new Person();
 		Alice.setName("Alice");
@@ -32,7 +34,7 @@ public class AppMain {
 				
 			}
 		}
-		
+		//end Person/email address example
 		
 		
 
